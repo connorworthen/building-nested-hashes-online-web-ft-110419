@@ -29,5 +29,8 @@ epic_tragedy[:capulet][:heroine][:status] = "dead"
   epic_tragedy
 end
 
-xit 'uses `xit` instead of `it`' do
+xcontext 'uses `xcontext` to skip a group of tests' do
+    it 'wont run' do; end
+    it 'wont run either' do; end
   end
+end
